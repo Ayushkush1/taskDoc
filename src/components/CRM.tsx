@@ -81,7 +81,7 @@ function SummaryMock() {
         </span>
         <div className="min-w-0">
           <p className="truncate text-sm font-medium text-slate-800">
-            Master Services Agreement — Acme.pdf
+            Master Services Agreement Acme.pdf
           </p>
           <p className="text-xs text-slate-500">42 pages</p>
         </div>
@@ -141,9 +141,9 @@ function EmailMock() {
 function DayMock() {
   const items = [
     { time: "09:00", text: "Review 3 PRs AI flagged as ready", done: true },
-    { time: "10:30", text: "Call with Northwind — brief prepared", done: true },
+    { time: "10:30", text: "Call with Northwind, brief prepared", done: true },
     { time: "13:00", text: "Approve 8 follow-up emails drafted by AI", done: false },
-    { time: "16:00", text: "Pipeline review — 2 deals at risk", done: false },
+    { time: "16:00", text: "Pipeline review: 2 deals at risk", done: false },
   ];
   return (
     <div className="rounded-2xl border border-slate-100 bg-slate-50/70 p-4">
@@ -175,7 +175,7 @@ function DayMock() {
 
 export default function CRM() {
   return (
-    <section id="crm" className="scroll-mt-20 py-24 sm:py-32">
+    <section id="crm" className="scroll-mt-24 py-24 sm:py-32">
       <Container>
         <SectionHeading
           eyebrow={
@@ -183,7 +183,7 @@ export default function CRM() {
               <Sparkles className="size-3.5" /> AI-centric CRM
             </>
           }
-          title="A CRM that works for you — not the other way around"
+          title="A CRM that works for you, not the other way around"
           description="Stop updating fields and copy-pasting notes. TaskDoc's CRM is built around AI: it builds workflows from plain English, reads your documents, writes your emails and plans your day."
         />
 
@@ -192,7 +192,7 @@ export default function CRM() {
             className="lg:col-span-4"
             icon={Workflow}
             title="AI workflows in plain English"
-            body="Describe the process and TaskDoc builds the automation — triggers, conditions and AI actions included. Tweak it visually, then let it run."
+            body="Describe the process and TaskDoc builds the automation: triggers, conditions and AI actions included. Tweak it visually, then let it run."
           >
             <WorkflowMock />
           </Card>
@@ -200,7 +200,7 @@ export default function CRM() {
             className="lg:col-span-2"
             icon={FileText}
             title="Document summarisation"
-            body="Contracts, proposals, call notes — get the key points, risks and action items in seconds."
+            body="Contracts, proposals, call notes. Get the key points, risks and action items in seconds."
           >
             <SummaryMock />
           </Card>
@@ -216,7 +216,7 @@ export default function CRM() {
             className="lg:col-span-3"
             icon={Calendar}
             title="Your day, made easy"
-            body="Every morning AI organises what matters: tasks to approve, meetings to prep for and deals that need attention — all in one place."
+            body="Every morning AI organises what matters: tasks to approve, meetings to prep for and deals that need attention, all in one place."
           >
             <DayMock />
           </Card>

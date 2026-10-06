@@ -59,13 +59,13 @@ export default function Pricing() {
   return (
     <section
       id="pricing"
-      className="scroll-mt-20 bg-slate-50/70 py-24 sm:py-32"
+      className="scroll-mt-24 bg-slate-50/70 py-24 sm:py-32"
     >
       <Container>
         <SectionHeading
           eyebrow="Pricing"
           title="Simple pricing. Hire your AI teammate today."
-          description="Start free, upgrade when your team is ready. Per-user pricing — your AI teammate is always included."
+          description="Start free, upgrade when your team is ready. Per-user pricing, and your AI teammate is always included."
         />
 
         <div className="mt-10 flex justify-center">

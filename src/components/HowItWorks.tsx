@@ -5,7 +5,7 @@ const steps = [
   {
     icon: Plus,
     title: "Assign a task",
-    body: "Write it the way you'd brief a colleague — or drop in a ticket, doc or email thread.",
+    body: "Write it the way you'd brief a colleague, or drop in a ticket, doc or email thread.",
   },
   {
     icon: Bot,
@@ -20,13 +20,13 @@ const steps = [
   {
     icon: CheckCircle,
     title: "You review & approve",
-    body: "Stay in control. Approve, request changes or take over — every action is logged.",
+    body: "Stay in control. Approve, request changes or take over. Every action is logged.",
   },
 ];
 
 export default function HowItWorks() {
   return (
-    <section id="how-it-works" className="scroll-mt-20 py-24 sm:py-32">
+    <section id="how-it-works" className="scroll-mt-24 py-24 sm:py-32">
       <Container>
         <SectionHeading
           eyebrow="How it works"

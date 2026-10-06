@@ -12,7 +12,7 @@ export default function Teammate() {
   return (
     <section
       id="teammate"
-      className="scroll-mt-20 bg-gradient-to-b from-white via-slate-50/70 to-white py-24 sm:py-32"
+      className="scroll-mt-24 bg-gradient-to-b from-white via-slate-50/70 to-white py-24 sm:py-32"
     >
       <Container className="grid items-center gap-16 lg:grid-cols-2">
         <div>
@@ -24,7 +24,7 @@ export default function Teammate() {
               </>
             }
             title="Assign it. AI manages it. AI completes it."
-            description="TaskDoc AI sits on your board like any other team member. Give it work and it takes full ownership — planning, executing and reporting back until the task is done."
+            description="TaskDoc AI sits on your board like any other team member. Give it work and it takes full ownership: planning, executing and reporting back until the task is done."
           />
           <ul className="mt-8 space-y-4">
             {points.map((p) => (

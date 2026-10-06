@@ -3,7 +3,7 @@ import { ArrowRight } from "./icons";
 
 export default function CTA() {
   return (
-    <section id="get-started" className="scroll-mt-20 pb-24 sm:pb-32">
+    <section id="get-started" className="scroll-mt-24 pb-24 sm:pb-32">
       <Container>
         <div className="relative overflow-hidden rounded-[2rem] bg-ink px-6 py-16 text-center sm:px-16 sm:py-24">
           <div className="bg-grid-dark pointer-events-none absolute inset-0 [mask-image:radial-gradient(ellipse_at_center,black_30%,transparent_75%)]" />

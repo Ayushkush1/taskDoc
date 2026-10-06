@@ -43,7 +43,7 @@ export default function Hero() {
 
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-pretty text-slate-600 sm:text-xl">
             Assign a task to TaskDoc AI and it plans, manages and completes it
-            for you — from writing code and opening pull requests to running
+            for you, from writing code and opening pull requests to running
             your CRM, drafting emails and converting leads.
           </p>
 
@@ -70,7 +70,7 @@ export default function Hero() {
 
         {/* Product mockup */}
         <div className="relative mx-auto mt-16 max-w-6xl sm:mt-20">
-          <AppFrame title="TaskDoc — Sprint 24 / Engineering">
+          <AppFrame title="TaskDoc · Sprint 24 / Engineering">
             <div className="grid lg:grid-cols-[220px_1fr_340px]">
               {/* Sidebar */}
               <aside className="hidden border-r border-slate-100 bg-slate-50/60 p-4 lg:block">

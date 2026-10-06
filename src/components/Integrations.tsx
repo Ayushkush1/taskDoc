@@ -1,19 +1,5 @@
+import { brands as tools } from "./brands";
 import { Container } from "./ui";
-
-const tools = [
-  "GitHub",
-  "GitLab",
-  "Bitbucket",
-  "Slack",
-  "Gmail",
-  "Outlook",
-  "Google Drive",
-  "Notion",
-  "Jira",
-  "Linear",
-  "Zoom",
-  "LinkedIn",
-];
 
 export default function Integrations() {
   return (
@@ -24,14 +10,22 @@ export default function Integrations() {
         </p>
       </Container>
       <div className="relative mt-6 overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
-        <div className="flex w-max animate-marquee gap-4">
+        <div className="flex w-max animate-marquee gap-12 pr-12">
           {[...tools, ...tools].map((t, i) => (
             <span
-              key={`${t}-${i}`}
+              key={`${t.name}-${i}`}
               aria-hidden={i >= tools.length}
-              className="rounded-full border border-slate-200 bg-white px-5 py-2 text-sm font-semibold text-slate-500 shadow-sm"
+              className="flex items-center gap-2.5 text-base font-semibold text-slate-600"
             >
-              {t}
+              <svg
+                viewBox="0 0 24 24"
+                className="size-6 shrink-0"
+                fill={t.color}
+                aria-hidden="true"
+              >
+                <path d={t.path} />
+              </svg>
+              {t.name}
             </span>
           ))}
         </div>

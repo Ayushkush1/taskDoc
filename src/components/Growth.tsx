@@ -67,7 +67,7 @@ export default function Growth() {
   return (
     <section
       id="growth"
-      className="scroll-mt-20 bg-gradient-to-b from-white via-brand-50/40 to-white py-24 sm:py-32"
+      className="scroll-mt-24 bg-gradient-to-b from-white via-brand-50/40 to-white py-24 sm:py-32"
     >
       <Container>
         <SectionHeading
@@ -180,7 +180,7 @@ export default function Growth() {
               <p className="mt-2 text-sm text-slate-700">
                 <span className="font-semibold">Initech</span> has gone quiet
                 after the proposal. I&apos;ve drafted a check-in with a revised
-                payment plan — their CFO opened the pricing page twice
+                payment plan. Their CFO opened the pricing page twice
                 yesterday.
               </p>
               <div className="mt-3 flex gap-2">

@@ -12,7 +12,7 @@ const faqs = [
   },
   {
     q: "How does the AI code review work?",
-    a: "Every PR — whether written by AI or your team — is reviewed for bugs, security issues, performance and style. Comments appear inline with suggested fixes you can apply in one click.",
+    a: "Every PR, whether written by AI or your team, is reviewed for bugs, security issues, performance and style. Comments appear inline with suggested fixes you can apply in one click.",
   },
   {
     q: "Do I need to set up workflows manually?",
@@ -30,7 +30,7 @@ const faqs = [
 
 export default function FAQ() {
   return (
-    <section id="faq" className="scroll-mt-20 py-24 sm:py-32">
+    <section id="faq" className="scroll-mt-24 py-24 sm:py-32">
       <Container className="grid gap-12 lg:grid-cols-[1fr_1.6fr]">
         <SectionHeading
           align="left"

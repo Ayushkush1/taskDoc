@@ -10,7 +10,7 @@ const features = [
   {
     icon: Shield,
     title: "AI code review",
-    body: "Every PR — human or AI — gets reviewed for bugs, security issues, performance and style.",
+    body: "Every PR, human or AI, gets reviewed for bugs, security issues, performance and style.",
   },
   {
     icon: Zap,
@@ -33,7 +33,7 @@ export default function CodeReview() {
   return (
     <section
       id="code"
-      className="relative scroll-mt-20 overflow-hidden bg-ink py-24 sm:py-32"
+      className="relative scroll-mt-24 overflow-hidden bg-ink py-24 sm:py-32"
     >
       <div className="bg-grid-dark pointer-events-none absolute inset-0 [mask-image:radial-gradient(ellipse_at_center,black_20%,transparent_70%)]" />
       <div className="pointer-events-none absolute top-0 left-1/2 h-80 w-[700px] -translate-x-1/2 rounded-full bg-brand-600/30 blur-3xl" />
@@ -54,7 +54,7 @@ export default function CodeReview() {
               </span>
             </>
           }
-          description="Ship faster without cutting corners. TaskDoc turns tickets into reviewed, tested pull requests — and gives every change a senior-level second pair of eyes."
+          description="Ship faster without cutting corners. TaskDoc turns tickets into reviewed, tested pull requests and gives every change a senior-level second pair of eyes."
         />
 
         <div className="mt-16 grid gap-8 lg:grid-cols-5">
@@ -109,7 +109,7 @@ export default function CodeReview() {
                 </span>
               </div>
               <p className="mt-2.5 text-sm leading-relaxed text-slate-300">
-                Nice — the idempotency check prevents double-processing on
+                Nice, the idempotency check prevents double-processing on
                 Stripe retries. Consider wrapping the update in a transaction
                 with <code className="rounded bg-white/10 px-1 font-mono text-[12px] text-brand-200">markProcessed()</code>{" "}
                 so a crash between the two calls can&apos;t leave the event

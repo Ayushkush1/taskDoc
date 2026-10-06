@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "TaskDoc — Your AI teammate that gets work done",
+  title: "TaskDoc | Your AI teammate that gets work done",
   description:
     "Assign tasks to AI and let it manage, execute and ship them. Automatic pull requests, AI code review, AI workflows, document summaries and an AI-native CRM that helps you find, convert and grow leads.",
 };

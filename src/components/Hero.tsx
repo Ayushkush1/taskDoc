@@ -1,3 +1,4 @@
+import HeroBackdrop from "./HeroBackdrop";
 import { AIBadge, AppFrame, Avatar, Container } from "./ui";
 import {
   ArrowRight,
@@ -18,9 +19,7 @@ const steps = [
 export default function Hero() {
   return (
     <section className="relative overflow-hidden">
-      {/* Backdrop */}
-      <div className="bg-grid pointer-events-none absolute inset-0 [mask-image:radial-gradient(ellipse_at_top,black_30%,transparent_75%)]" />
-      <div className="pointer-events-none absolute -top-40 left-1/2 h-[520px] w-[900px] -translate-x-1/2 rounded-full bg-gradient-to-r from-brand-300/40 via-violet-300/40 to-pink-300/30 blur-3xl" />
+      <HeroBackdrop />
 
       <Container className="relative pt-16 pb-20 sm:pt-24 lg:pb-28">
         <div className="mx-auto max-w-4xl text-center animate-fade-up">
